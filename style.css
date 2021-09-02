@@ -139,9 +139,11 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   letter-spacing: 0.2em;
+  padding-left: 1em;
 }
 
 #work {
+  background-color: #d7ded4;
   height: 100vh;
 }
 
@@ -155,8 +157,15 @@
   height: 10em;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
 .projectCard {
-  display: inline;
+  margin-top: 2em;
 }
 
 @media screen and (max-width: 768px) {
