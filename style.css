@@ -122,11 +122,41 @@
   justify-content: center;
 }
 
+.skills ul {
+  margin-top: 5em;
+  /* margin-left: -140%; */
+}
+
+.skills ul li {
+  list-style: none;
+  display: inline;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
 .skillsTitle {
   font-size: x-large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   letter-spacing: 0.2em;
+}
+
+#work {
+  height: 100vh;
+}
+
+#otc {
+  width: 20em;
+  height: 20em;
+}
+
+#fanfic {
+  width: 20em;
+  height: 10em;
+}
+
+.projectCard {
+  display: inline;
 }
 
 @media screen and (max-width: 768px) {
