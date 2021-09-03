@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
 }
+
 .image {
   height: 100vh;
   width: 75vh;
@@ -110,7 +111,7 @@
   padding-left: 2em;
   padding-right: 1em;
   line-height: 1.6;
-  font-size: large;
+  font-size: medium;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -124,7 +125,6 @@
 
 .skills ul {
   margin-top: 5em;
-  /* margin-left: -140%; */
 }
 
 .skills ul li {
@@ -157,11 +157,11 @@
   height: 10em;
 }
 
-.projects {
+.projectContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 
 .projectCard {
@@ -184,5 +184,24 @@
   .solid {
     height: 100vh;
     width: 100vh;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .photoContainer {
+  }
+
+  .aboutMe img {
+    height: 5em;
+    width: 10em;
   }
 }
