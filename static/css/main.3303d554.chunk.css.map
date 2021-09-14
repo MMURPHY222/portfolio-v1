@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/nav/nav.css"],"names":[],"mappings":"AAAA,KACE,UAAW,CACX,WAAY,CACZ,wBACF","file":"main.3303d554.chunk.css","sourcesContent":[".nav {\r\n  width: 100%;\r\n  height: 70px;\r\n  background-color: goldenrod;\r\n}\r\n"]}
