@@ -3,7 +3,7 @@ import '../works/work.css'
 
 export default function Works() {
     return (
-        <div className='works'>
+        <div className='works' id='works'>
 
         </div>
     )

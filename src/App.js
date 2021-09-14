@@ -4,6 +4,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Works from './components/works/Works'
 import Contact from './components/contact/Contact'
 import './app.css'
+import './global.css'
 
 function App() {
   return (
