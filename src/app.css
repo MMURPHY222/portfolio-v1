@@ -9,4 +9,11 @@
   position: relative;
   top: 70px;
   scroll-snap-type: y mandatory;
+  /* firefox */
+  scrollbar-width: none;
+}
+
+/* chrome */
+.sections::-webkit-scrollbar {
+  display: none;
 }
