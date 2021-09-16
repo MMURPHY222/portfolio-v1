@@ -1,6 +1,5 @@
 import React from 'react'
 import '../nav/nav.css'
-import { Mail, MenuOpenTwoTone } from '@material-ui/icons'
 
 export default function Nav({ menuOpen, setMenuOpen }) {
     return (
@@ -11,10 +10,10 @@ export default function Nav({ menuOpen, setMenuOpen }) {
             </div>
             <div className="right">
                 <ul>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> About</a></li>
-                    <li><a href="#"> Work</a></li>
-                    <li><a href="#"> Project</a></li>
+                    <li><a href="#intro"> Intro</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#works"> Works</a></li>
+                    <li><a href="#contact"> Contact</a></li>
                 </ul>
             </div>
             <div className={'burger ' + (menuOpen && 'burgerActive')} onClick={()=> setMenuOpen(!menuOpen)}>
@@ -26,35 +25,3 @@ export default function Nav({ menuOpen, setMenuOpen }) {
     </div>
     )
 }
-
-{/* <div className='nav'>
-            <div className="wrapper">
-                <div className="left">
-                    <a href="#intro" className="logo">MMURPHY.</a>
-                </div>
-                <div className="right">
-                    <ul>
-                        <li><a href="#"> Home</a></li>
-                        <li><a href="#"> About</a></li>
-                        <li><a href="#"> Work</a></li>
-                        <li><a href="#"> Project</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
-
-
-
-    //     <div>
-    //     <nav>
-    //         <div className="logo">
-    //             <h4>MMURPHY.</h4>
-    //         </div>
-    //         <ul>
-    //             <li><a href="#"> Home</a></li>
-    //             <li><a href="#"> About</a></li>
-    //             <li><a href="#"> Work</a></li>
-    //             <li><a href="#"> Project</a></li>
-    //         </ul>
-    //     </nav>
-    // </div>
