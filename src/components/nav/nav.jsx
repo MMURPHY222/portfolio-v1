@@ -4,11 +4,11 @@ import '../nav/nav.css'
 export default function Nav({ menuOpen, setMenuOpen }) {
     return (
         <div className={'nav ' + (menuOpen && 'active')}>
-        <div className="wrapper">
-            <div className="left">
+        <div className="wrapperNav">
+            <div className="leftNav">
                 <a href="#intro" className="logo">MMURPHY.</a>
             </div>
-            <div className="right">
+            <div className="rightNav">
                 <ul>
                     <li><a href="#intro"> Intro</a></li>
                     <li><a href="#portfolio"> Portfolio</a></li>

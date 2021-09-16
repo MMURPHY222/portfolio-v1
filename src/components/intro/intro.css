@@ -42,13 +42,13 @@ img {
   justify-content: center;
 }
 
-h1 {
+.name {
   font-size: 60px;
   margin: 10px 0;
   color: var(--primary);
 }
 
-h2 {
+.greeting {
   font-size: 35px;
   color: var(--quartenary);
 }
