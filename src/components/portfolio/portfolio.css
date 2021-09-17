@@ -1,6 +1,35 @@
 .portfolio {
-  background-color: orange;
+  background-color: var(--tertiary);
   width: 100vw;
   height: calc(100vh - 70px);
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio h1 {
+  font-size: 50px;
+}
+
+.portfolio ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.portfolio ul li {
+  font-size: 15px;
+  margin-right: 50px;
+  padding: 0.7;
+}
+
+.portItem img {
+  width: 50px;
+  height: 50px;
+}
+
+.activePort {
+  background-color: var(--primary);
 }
