@@ -22,14 +22,61 @@
 .portfolio ul li {
   font-size: 15px;
   margin-right: 50px;
-  padding: 0.7;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.portItem img {
-  width: 50px;
-  height: 50px;
-}
+/* .portItem img {
+  width: 220px;
+  height: 150px;
+} */
 
 .activePort {
   background-color: var(--primary);
+  color: var(--tertiary);
+}
+
+.portfolioContainer {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portItem {
+  width: 220px;
+  height: 150px;
+  border-radius: 20px;
+  border: 1px solid var(--secondary);
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tertiary);
+  position: relative;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.portfolioContainer .portItem h3 {
+  position: absolute;
+  font-size: 20px;
+}
+
+.portfolioContainer .portItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.portfolioContainer .portItem:hover {
+  background-color: var(--primary);
+}
+
+.portfolioContainer .portItem img:hover {
+  opacity: 0.2;
+  z-index: 0;
 }
