@@ -5,7 +5,7 @@ import photo from '../../assets/otc2.png'
 import PortfolioList from '../portfolioList/PortfolioList'
 
 export default function Portfolio() {
-    const [selected, setSelected] = useState('classWork')
+    const [selected, setSelected] = useState('featured')
     const list = [
         {
             id: 'featured',
@@ -34,6 +34,7 @@ export default function Portfolio() {
                         active={selected === item.id} 
                         setSelected={setSelected}
                         id={item.id}
+                        selected={selected}
                     />
                 ))}
             </ul>
