@@ -1,0 +1,12 @@
+.portfolioList ul li {
+  font-size: 15px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.activePort {
+  background-color: var(--primary);
+  color: var(--tertiary);
+}

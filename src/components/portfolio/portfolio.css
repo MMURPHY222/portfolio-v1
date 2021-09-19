@@ -10,6 +10,7 @@
 
 .portfolio h1 {
   font-size: 50px;
+  color: var(--quartenary);
 }
 
 .portfolio ul {
@@ -26,11 +27,6 @@
   border-radius: 10px;
   cursor: pointer;
 }
-
-/* .portItem img {
-  width: 220px;
-  height: 150px;
-} */
 
 .activePort {
   background-color: var(--primary);

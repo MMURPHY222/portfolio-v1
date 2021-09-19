@@ -1,8 +1,11 @@
 import React from 'react'
+import { useState } from 'react'
 import '../portfolio/portfolio.css'
 import photo from '../../assets/otc2.png'
+import PortfolioList from '../portfolioList/PortfolioList'
 
 export default function Portfolio() {
+    const [selected, setSelected] = useState('classWork')
     const list = [
         {
             id: 'featured',
@@ -24,7 +27,16 @@ export default function Portfolio() {
     return (
         <div className='portfolio' id='portfolio'>
             <h1>Portfolio</h1>
-            <ul></ul>
+            <ul>
+                {list.map(item=>(
+                    <PortfolioList 
+                        title={item.title} 
+                        active={selected === item.id} 
+                        setSelected={setSelected}
+                        id={item.id}
+                    />
+                ))}
+            </ul>
             <div className="portfolioContainer">
                 <div className="portItem">
                     <img src={photo} alt =''></img>
