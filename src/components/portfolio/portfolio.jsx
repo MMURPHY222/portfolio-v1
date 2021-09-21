@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import '../portfolio/portfolio.css'
-import photo from '../../assets/otc2.png'
 import PortfolioList from '../portfolioList/PortfolioList'
 import {
     featuredPortfolio, 
@@ -71,6 +70,8 @@ export default function Portfolio() {
                 {data.map((el) => (
                 <div className="portItem">
                     <img src={el.img} alt =''></img>
+                    <a href={el.liveLink} id='liveLink' target="_blank" rel="noreferrer">Live Link</a>
+                    <a href={el.gitHub} id="gitHub" target="_blank" rel="noreferrer">Github</a>
                     <h3>{el.title}</h3>
                 </div>
                 ))}
