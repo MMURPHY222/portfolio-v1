@@ -141,10 +141,10 @@ export const featuredPortfolio = [
   export const classWorkPortfolio = [
     {
         id: 1,
-        title: "Password Generator",
+        title: "Weather App",
         img: solid,
-        gitHub: 'https://github.com/MMURPHY222/03-password-generator',
-        liveLink: 'https://mmurphy222.github.io/03-password-generator/'
+        gitHub: '',
+        liveLink: ''
     },
     {
         id: 2,
@@ -171,15 +171,15 @@ export const featuredPortfolio = [
         id: 5,
         title: "Day Planner",
         img: solid,
-        gitHub: '',
-        liveLink: ''
+        gitHub: 'https://github.com/MMURPHY222/05-day-planner',
+        liveLink: 'https://mmurphy222.github.io/05-day-planner/'
     },
     {
         id: 6,
         title: "Password Generator",
         img: solid,
-        gitHub: '',
-        liveLink: ''
+        gitHub: 'https://github.com/MMURPHY222/03-password-generator',
+        liveLink: 'https://mmurphy222.github.io/03-password-generator/'
     },
   ];
   
