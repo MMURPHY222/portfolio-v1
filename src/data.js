@@ -143,8 +143,8 @@ export const featuredPortfolio = [
         id: 1,
         title: "Password Generator",
         img: solid,
-        gitHub: '',
-        liveLink: ''
+        gitHub: 'https://github.com/MMURPHY222/03-password-generator',
+        liveLink: 'https://mmurphy222.github.io/03-password-generator/'
     },
     {
         id: 2,
