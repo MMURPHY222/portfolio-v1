@@ -143,21 +143,21 @@ export const featuredPortfolio = [
         id: 1,
         title: "Weather App",
         img: solid,
-        gitHub: '',
-        liveLink: ''
+        gitHub: 'https://github.com/MMURPHY222/06-weather-dashboard',
+        liveLink: 'https://mmurphy222.github.io/06-weather-dashboard/'
     },
     {
         id: 2,
         title: "Fitness Tracker",
         img: solid,
-        gitHub: '',
+        gitHub: 'https://github.com/MMURPHY222/18-fitness-tracker',
         liveLink: ''
     },
     {
         id: 3,
         title: "Note Taker",
         img: solid,
-        gitHub: '',
+        gitHub: 'https://github.com/MMURPHY222/11-note-taker',
         liveLink: ''
     },
     {
