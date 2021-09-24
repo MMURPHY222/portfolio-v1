@@ -164,8 +164,8 @@ export const featuredPortfolio = [
         id: 4,
         title: "Montana Quiz",
         img: solid,
-        gitHub: '',
-        liveLink: ''
+        gitHub: 'https://github.com/MMURPHY222/logans-quiz',
+        liveLink: 'https://mmurphy222.github.io/logans-quiz/'
     },
     {
         id: 5,
