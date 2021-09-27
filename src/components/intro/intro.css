@@ -56,3 +56,24 @@
 h3 {
   font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .imageContainer img {
+    height: 70%;
+  }
+
+  .wrapper {
+    padding-left: 0;
+    align-items: center;
+  }
+}
