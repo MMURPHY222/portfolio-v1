@@ -2,6 +2,12 @@ import otc from '../src/assets/otc2.png'
 import solid from '../src/assets/tert-color.png'
 import fanFic from '../src/assets/fanfic.png'
 import market from '../src/assets/MarketFinder.png'
+import planner from '../src/assets/dayPlanner.png'
+import fitness from '../src/assets/Fitness.png'
+import montana from '../src/assets/montanaQuiz.png'
+import note from '../src/assets/noteTaker.png'
+import password from '../src/assets/pswdGen.png'
+import weather from '../src/assets/weather.jpg'
 
 export const featuredPortfolio = [
     {
@@ -142,42 +148,42 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Weather App",
-        img: solid,
+        img: weather,
         gitHub: 'https://github.com/MMURPHY222/06-weather-dashboard',
         liveLink: 'https://mmurphy222.github.io/06-weather-dashboard/'
     },
     {
         id: 2,
         title: "Fitness Tracker",
-        img: solid,
+        img: fitness,
         gitHub: 'https://github.com/MMURPHY222/18-fitness-tracker',
         liveLink: 'https://limitless-anchorage-11451.herokuapp.com/?id=611801798efc1b00167ffef2'
     },
     {
         id: 3,
         title: "Note Taker",
-        img: solid,
+        img: note,
         gitHub: 'https://github.com/MMURPHY222/11-note-taker',
         liveLink: 'https://mighty-thicket-42234.herokuapp.com/'
     },
     {
         id: 4,
         title: "Montana Quiz",
-        img: solid,
+        img: montana,
         gitHub: 'https://github.com/MMURPHY222/logans-quiz',
         liveLink: 'https://mmurphy222.github.io/logans-quiz/'
     },
     {
         id: 5,
         title: "Day Planner",
-        img: solid,
+        img: planner,
         gitHub: 'https://github.com/MMURPHY222/05-day-planner',
         liveLink: 'https://mmurphy222.github.io/05-day-planner/'
     },
     {
         id: 6,
         title: "Password Generator",
-        img: solid,
+        img: password,
         gitHub: 'https://github.com/MMURPHY222/03-password-generator',
         liveLink: 'https://mmurphy222.github.io/03-password-generator/'
     },
