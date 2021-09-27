@@ -28,7 +28,7 @@
 }
 
 .contactRight div {
-  background-color: var(--accent);
+  background-color: var(--primary);
   height: 50px;
   display: flex;
   justify-content: center;
@@ -53,5 +53,5 @@
 }
 
 .contactRight div:hover > a {
-  color: var(--accent);
+  color: var(--tertiary);
 }
