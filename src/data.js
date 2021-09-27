@@ -151,14 +151,14 @@ export const featuredPortfolio = [
         title: "Fitness Tracker",
         img: solid,
         gitHub: 'https://github.com/MMURPHY222/18-fitness-tracker',
-        liveLink: ''
+        liveLink: 'https://limitless-anchorage-11451.herokuapp.com/?id=611801798efc1b00167ffef2'
     },
     {
         id: 3,
         title: "Note Taker",
         img: solid,
         gitHub: 'https://github.com/MMURPHY222/11-note-taker',
-        liveLink: ''
+        liveLink: 'https://mighty-thicket-42234.herokuapp.com/'
     },
     {
         id: 4,
