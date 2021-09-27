@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio-v1/static/css/main.e489d614.chunk.css",
-    "main.js": "/portfolio-v1/static/js/main.15e71eb0.chunk.js",
-    "main.js.map": "/portfolio-v1/static/js/main.15e71eb0.chunk.js.map",
+    "main.css": "/portfolio-v1/static/css/main.35bf013d.chunk.css",
+    "main.js": "/portfolio-v1/static/js/main.6fa3dc00.chunk.js",
+    "main.js.map": "/portfolio-v1/static/js/main.6fa3dc00.chunk.js.map",
     "runtime-main.js": "/portfolio-v1/static/js/runtime-main.8b52608f.js",
     "runtime-main.js.map": "/portfolio-v1/static/js/runtime-main.8b52608f.js.map",
-    "static/js/2.d10ae537.chunk.js": "/portfolio-v1/static/js/2.d10ae537.chunk.js",
-    "static/js/2.d10ae537.chunk.js.map": "/portfolio-v1/static/js/2.d10ae537.chunk.js.map",
+    "static/js/2.c21c4425.chunk.js": "/portfolio-v1/static/js/2.c21c4425.chunk.js",
+    "static/js/2.c21c4425.chunk.js.map": "/portfolio-v1/static/js/2.c21c4425.chunk.js.map",
     "index.html": "/portfolio-v1/index.html",
-    "static/css/main.e489d614.chunk.css.map": "/portfolio-v1/static/css/main.e489d614.chunk.css.map",
-    "static/js/2.d10ae537.chunk.js.LICENSE.txt": "/portfolio-v1/static/js/2.d10ae537.chunk.js.LICENSE.txt"
+    "static/css/main.35bf013d.chunk.css.map": "/portfolio-v1/static/css/main.35bf013d.chunk.css.map",
+    "static/js/2.c21c4425.chunk.js.LICENSE.txt": "/portfolio-v1/static/js/2.c21c4425.chunk.js.LICENSE.txt",
+    "static/media/Fitness.68fe21b0.png": "/portfolio-v1/static/media/Fitness.68fe21b0.png",
+    "static/media/MarketFinder.4a0a9c4e.png": "/portfolio-v1/static/media/MarketFinder.4a0a9c4e.png",
+    "static/media/bikeMess.6ec737a0.png": "/portfolio-v1/static/media/bikeMess.6ec737a0.png",
+    "static/media/dayPlanner.a874de93.png": "/portfolio-v1/static/media/dayPlanner.a874de93.png",
+    "static/media/fanfic.46836fd1.png": "/portfolio-v1/static/media/fanfic.46836fd1.png",
+    "static/media/meNMarsha.14346e38.png": "/portfolio-v1/static/media/meNMarsha.14346e38.png",
+    "static/media/montanaQuiz.d150ec15.png": "/portfolio-v1/static/media/montanaQuiz.d150ec15.png",
+    "static/media/noteTaker.ff1f49f0.png": "/portfolio-v1/static/media/noteTaker.ff1f49f0.png",
+    "static/media/otc2.9a56a353.png": "/portfolio-v1/static/media/otc2.9a56a353.png",
+    "static/media/pswdGen.4a85f695.png": "/portfolio-v1/static/media/pswdGen.4a85f695.png",
+    "static/media/weather.254cf1d1.jpg": "/portfolio-v1/static/media/weather.254cf1d1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b52608f.js",
-    "static/js/2.d10ae537.chunk.js",
-    "static/css/main.e489d614.chunk.css",
-    "static/js/main.15e71eb0.chunk.js"
+    "static/js/2.c21c4425.chunk.js",
+    "static/css/main.35bf013d.chunk.css",
+    "static/js/main.6fa3dc00.chunk.js"
   ]
 }
