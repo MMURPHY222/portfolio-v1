@@ -1,6 +1,57 @@
 .contact {
   width: 100vw;
   height: calc(100vh - 70px);
-  background-color: aqua;
+  background-color: var(--tertiary);
   scroll-snap-align: start;
+  display: flex;
+}
+
+.contactLeft {
+  flex: 1;
+  overflow: hidden;
+}
+
+.contactLeft img {
+  height: 100%;
+}
+
+.contactRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactRight h2 {
+  font-size: 30px;
+}
+
+.contactRight div {
+  background-color: var(--accent);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+  min-width: 230px;
+}
+
+.contactRight div a {
+  text-decoration: none;
+  color: var(--quartenary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contactRight div:hover {
+  background-color: var(--quartenary);
+}
+
+.contactRight div:hover > a {
+  color: var(--accent);
 }
