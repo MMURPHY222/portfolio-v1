@@ -118,3 +118,38 @@
 #gitHub:hover {
   background-color: var(--primary);
 }
+
+@media screen and (max-width: 768px) {
+  .portfolio h1 {
+    font-size: 20px;
+  }
+
+  .portfolio ul {
+    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolioContainer {
+    width: 500px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .portItem {
+    width: 160px;
+    height: 90px;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+
+  .portfolioContainer .portItem #liveLink {
+    right: 5%;
+    margin-bottom: 5px;
+  }
+
+  .portfolioContainer .portItem #gitHub {
+    left: 5%;
+    margin-bottom: 5px;
+  }
+}
